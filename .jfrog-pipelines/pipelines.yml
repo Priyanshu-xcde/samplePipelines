@@ -7,7 +7,7 @@ resources:
     configuration:
       interval: "* * * * *"
       branches:
-        exclude: "^dev.+$"
+        include: ""
 
 pipelines:
   - name: R_CronTrigger_7567_0011
