@@ -6,8 +6,6 @@ resources:
     type: CronTrigger
     configuration:
       interval: "* * * * *"
-      branches:
-        include: ""
 
 pipelines:
   - name: R_CronTrigger_7567_0011
